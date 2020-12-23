@@ -21,15 +21,15 @@ class ParametersTableSeeder extends Seeder
         ]);
        DB::table('parameters')->insert([
             'name' => 'Documento',
-            'value' => '900429427',
+            'value' => '',
         ]);
        DB::table('parameters')->insert([
             'name' => 'Direccion',
-            'value' => 'Carrera 48 #41-31',
+            'value' => '',
         ]);
        DB::table('parameters')->insert([
             'name' => 'Telefono',
-            'value' => '4441381',
+            'value' => '',
         ]);
        DB::table('parameters')->insert([
             'name' => 'Firma Ingeniero',
